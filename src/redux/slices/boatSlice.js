@@ -8,7 +8,7 @@ export const fetchBoats = createAsyncThunk('boats/fetchBoats', async () => {
 export const fetchToDeleteBoats = createAsyncThunk('boats/fetchToDeleteBoats', async (boatId) => {
   try {
     console.log('Deleting boat with id:', boatId); // Log boat deletion
-    const response = await fetch(`http://localhost:3000/api/boats/${boatId}`, {
+    const response = await fetch(`https://react-rails-api-he81.onrender.com/api/boats/${boatId}`, {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json',
