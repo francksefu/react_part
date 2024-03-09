@@ -21,9 +21,9 @@ function App() {
             <Route exact path="/reservation" element={<AddReservation />} />
             <Route exact path="/login" element={<Login />} />
             <Route path="/register" element={<Registration />} />
-            <Route path="/new-boat" element={<AddNewBoat />} />
-            <Route path="/my-reservations" element={<MyReservations />} />
-            <Route path="/delete-boat" element={<DeleteBoat />} />
+            <Route path="/newboat" element={<AddNewBoat />} />
+            <Route path="/myreservations" element={<MyReservations />} />
+            <Route path="/deleteboat" element={<DeleteBoat />} />
           </Routes>
         </Provider>
       </div>
