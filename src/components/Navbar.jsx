@@ -13,14 +13,14 @@ function Navbar() {
           <a className="nav-link text-dark" href="/reservation">RESERVE</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-dark" href="/my-reservations">MY RESERVATIONS</a>
+          <a className="nav-link text-dark" href="/myreservations">MY RESERVATIONS</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-dark" href="/new-boat">ADD NEW BOAT</a>
+          <a className="nav-link text-dark" href="/newboat">ADD NEW BOAT</a>
         </li>
 
         <li className="nav-item">
-          <a className="nav-link text-dark" href="/delete-boat">DELETE BOAT</a>
+          <a className="nav-link text-dark" href="/deleteboat">DELETE BOAT</a>
         </li>
         <li>
           <LogoutButton />
